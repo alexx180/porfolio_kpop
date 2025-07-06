@@ -1,3 +1,7 @@
 div.in{
   text-align: center;
 }
+ul.info{
+  display: inline-block;
+  text-align: left;
+}
