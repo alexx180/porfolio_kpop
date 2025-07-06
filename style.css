@@ -5,3 +5,6 @@ ul.info{
   display: inline-block;
   text-align: left;
 }
+body {
+    background-color: pink;
+}
