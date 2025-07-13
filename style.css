@@ -10,4 +10,11 @@ body {
 }
 photo{
   height: 100%,
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../images/jeongin.jpg');
+  background-size: cover;       /* L'image couvre tout */
+  background-position: center;  /* Centrée */
+  background-repeat: no-repeat;
 }
