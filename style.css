@@ -9,11 +9,13 @@ body {
     background-color: beige;
 }
 photo{
-  margin: 0;
-  padding: 0;
-  height: 100vh;
   background-image: url('https://i.pinimg.com/736x/55/11/89/551189926b9edb7334d833dee64cfe19.jpg');
   background-size: cover;       /* L'image couvre tout */
   background-position: center;  /* Centrée */
   background-repeat: no-repeat;
+}
+in_photo{
+    margin: 0;
+  padding: 0;
+  height: 100vh;
 }
