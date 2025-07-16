@@ -38,12 +38,12 @@
 .bouton_acc{
     display: inline-block;
     padding: 10px 10px;
-    background-color: black;
-    border-radius: 10px
+    background-color: grey;
+    border-radius: 20px
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 .bouton_acc:hover{
-    background-color: grey;
-    transform: scale(1,1);
+    background-color: black;
+    transform: scale(1,05);
 }
