@@ -20,16 +20,15 @@ body {
 .bouton{
   display: inline-block;
   padding: 10px 20px;
-  background-color: #f2d9e6;
-  color: #333;
+  background-color: #fff7c2;
+  color: #3e3e00;
   border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
 }
 
 .bouton:hover {
-  background-color: #e5bad5;
+  background-color: #ffe57f;
   transform: scale(1.05);
 }
