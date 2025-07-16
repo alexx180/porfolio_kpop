@@ -5,7 +5,7 @@ ul.info{
   display: inline-block;
   text-align: left;
 }
-.body {
+body {
     background-color: beige;
 }
 .photo{
