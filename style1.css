@@ -10,7 +10,7 @@
   transition: 0.3s ease;
 }
 .bouton_yeonjun:hover{
-  background-color: #b8a1d;
+  background-color: #b8a1d9;
   transform: scale(1.05);
 }
 .pdp{
@@ -19,4 +19,7 @@
 }
 h1{
   texte-align: center;
+}
+body{
+  color: #d8eafd;
 }
