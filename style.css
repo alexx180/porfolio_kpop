@@ -1,4 +1,4 @@
-IN page
+/*IN page*/
 }
 .body_in {
     background-color: lightyellow;
@@ -34,7 +34,7 @@ IN page
   background-color: #ffe57f;
   transform: scale(1.05);
 }
-index page
+/*index page*/
 .bouton_acc{
     display: inline-block;
     padding: 10px 10px;
