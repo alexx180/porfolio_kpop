@@ -1,7 +1,7 @@
 .bouton_yeonjun{
   display: inline-block;
   padding: 10px 20px;
-  background-color: lightlavender;
+  background-color: #c9b6e4;
   color: white;
   border-radius: 20px;
   text-decoration: none;
@@ -10,7 +10,7 @@
   transition: 0.3s ease;
 }
 .bouton_yeonjun:hover{
-  background-color: ;
+  background-color: #b8a1d;
   transform: scale(1.05);
 }
 .pdp{
