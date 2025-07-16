@@ -1,3 +1,4 @@
+IN page
 }
 .body_in {
     background-color: lightyellow;
@@ -32,4 +33,17 @@
 .bouton:hover {
   background-color: #ffe57f;
   transform: scale(1.05);
+}
+index page
+.bouton_acc{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 10px
+    box-shadow 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
+.bouton_acc:hover{
+    background-color: grey;
+    transform: scale(1,1);
 }
