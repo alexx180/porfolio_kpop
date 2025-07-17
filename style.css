@@ -49,3 +49,7 @@
 .bouton_acc:hover{
     background-color: black;
 }
+.dark-mode {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
