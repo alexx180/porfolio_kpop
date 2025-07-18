@@ -1,4 +1,12 @@
-.bouton_yeonjun{
+body {
+  background: linear-gradient(to bottom, #ede6f8, #f8f5fb);
+  color: #3a2c4a;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.bouton_yeonjun {
   display: inline-block;
   padding: 10px 20px;
   background-color: #c9b6e4;
@@ -8,26 +16,33 @@
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
-  margin-bottom: 20px; /* espace entre bouton et img */
+  margin-bottom: 30px;
 }
-.bouton_yeonjun:hover{
+.bouton_yeonjun:hover {
   background-color: #b8a1d9;
   transform: scale(1.05);
 }
-.pdp{
+
+.pdp {
   border-radius: 50%;
-  width: 50%;
-  max-width: 100px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
-body{
- background: linear-gradient(to bottom, #e8e1f4, #f9f7fc);
-  color: #3a2c4a;
-}
-}
-.info{
-   display: flex;
+
+.info {
+  display: flex;
   align-items: center;
-  justify-content: flex-start;/* tout commence à gauche */
-  gap: 15px; /* espace entre l’image et le texte */
-  margin-top: 20px;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
