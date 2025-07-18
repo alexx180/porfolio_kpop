@@ -20,7 +20,9 @@
   max-width: 100px;
 }
 body{
-  color: #d8eafd;
+ background: linear-gradient(to bottom, #e8e1f4, #f9f7fc);
+  color: #3a2c4a;
+}
 }
 .info{
    display: flex;
