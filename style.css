@@ -42,7 +42,7 @@
     display: inline-block;
     padding: 10px 10px;
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
 }
@@ -51,5 +51,24 @@
 }
 .dark-mode {
   background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+.theme-toggle {
+  background-color: #b5a9e6;  /* violet pastel */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle:hover {
+  background-color: #9f92d3;
+  transform: scale(1.05);
+}
+.dark-mode .theme-toggle {
+  background-color: #4c4c4c;
   color: #f0f0f0;
 }
