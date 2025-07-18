@@ -8,6 +8,7 @@
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
+  margin-bottom: 20px; /* espace entre bouton et img */
 }
 .bouton_yeonjun:hover{
   background-color: #b8a1d9;
