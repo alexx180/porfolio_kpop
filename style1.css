@@ -19,9 +19,13 @@
   max-width: 100px;
   text-align: left;
 }
-h1{
-  text-align: center;
-}
 body{
   color: #d8eafd;
+}
+.info{
+   display: flex;
+  align-items: center;
+  justify-content: center; /* centre le tout horizontalement */
+  gap: 15px; /* espace entre l’image et le texte */
+  margin-top: 20px;
 }
