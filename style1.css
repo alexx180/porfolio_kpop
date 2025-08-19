@@ -1,3 +1,15 @@
 .pdp{
-  float : left;
+  float: left;
+}
+.bouton_yeonjun{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #AEC6CF;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.bouton_yeonjun.hover{
+  background-color: #CFE2F3;
+  transform: scale(1.05);
 }
