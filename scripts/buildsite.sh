@@ -4,9 +4,9 @@ set -e
 
 echo "Rebuilding site..."
 
-rm -rf public/
-mkdir public
-cp -r assets public/
+rm -rf docs/
+mkdir docs
+cp -r assets docs/
 
 for page in pages/*.html; do
     echo "→ building ${page#pages/}..."

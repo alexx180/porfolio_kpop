@@ -28,8 +28,8 @@ process() {
     sed "s~{{DATE}}~$DATE~g"
 }
 
-mkdir -p public
+mkdir -p docs
 
-buildpage "$INPUT" | process > "public/$FILE"
+buildpage "$INPUT" | process > "docs/$FILE"
 
 echo "✔ Built: $FILE"
