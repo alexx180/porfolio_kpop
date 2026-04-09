@@ -1,33 +1,35 @@
 #!/bin/bash
 
-FILE="${1#pages/}"
-# Date actuelle
+set -e
+
+INPUT="$1"
+FILE="${INPUT#pages/}"
 DATE=$(date +%d/%m/%Y)
 TITLE="$(basename "$FILE" .html)"
 
+if [[ -z "$INPUT" ]]; then
+    echo "Usage: $0 pages/file.html" >&2
+    exit 1
+fi
 
-function buildpage {
+if [[ ! -f "$INPUT" ]]; then
+    echo "Error: $INPUT not found" >&2
+    exit 1
+fi
+
+buildpage() {
     cat layout/before.html
-    cat "${1}"
+    cat "$1"
     cat layout/after.html
 }
 
-function current_pages {
-    sed "s~href=\"${FILE}\"~& class=\"current\"~" | #change le lien par lui-meme et la class current
-    sed "s~{{TITLE}}~${TITLE}~" | #change le titre par le titre 
-    sed "s~{{DATE}}~${DATE}~" # change la date par la date 
+process() {
+    sed "s~{{TITLE}}~$TITLE~g" |
+    sed "s~{{DATE}}~$DATE~g"
 }
 
-if [[ "${1}" = "" ]]; then
-    echo "Usage: ${0} PAGE" >&2
-    exit 1
+mkdir -p public
 
-elif test ! -f "${1}"; then
-    echo "${0}: error: ${1}: no such file" >&2
-    exit 1
+buildpage "$INPUT" | process > "public/$FILE"
 
-else # si tout va bien on construit la page dans public/
-    buildpage "${1}" | current_pages > "public/${FILE}"
-    echo "La page ${TITLE}.html a bien été crée !"
-fi
-
+echo "✔ Built: $FILE"

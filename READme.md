@@ -1,3 +1,5 @@
+Fais bash scripts/buildsite.sh de temps en temps
+
 **🎧 KPOP ARCHIVE**
 
 Un site web personnel dédié à l’univers K-pop, conçu comme une bibliothèque interactive présentant plusieurs groupes, leurs membres, leurs biographies et leurs discographies.
@@ -22,3 +24,5 @@ Design centré sur l’expérience utilisateur et la lisibilité
 **🚀 Objectif**
 
 Créer un site fan K-pop propre, immersif et évolutif, tout en améliorant mes compétences en développement web.
+
+
