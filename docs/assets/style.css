@@ -1,5 +1,6 @@
 html {
     background-color: rgba(34, 32, 32, 0.745);
+    color: white;
 }
 h1, h2,h3 {
     color: white;
@@ -57,6 +58,35 @@ nav a.current,nav a:hover{
     opacity: 1;
     transition: 0.3s ease;
     color: pink;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+
+}
+.member {
+    width: 40%;
+    display: inline-block;
+    height: auto;
+    border-radius: 0.5em;
+    margin: 1em 0;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+
+}
+
+.group {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 0.5em;
+    margin: 1em 0;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+
 }
 
 footer {
