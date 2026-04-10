@@ -15,15 +15,21 @@ section a {
     text-align: center;
     line-height: 60vh; /* centre verticalement le texte */
     color: white;
+    margin: auto;
     /* augmente la taille*/
     font-size: 10em;
     /* Ajout d'un effet de flou */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    background-image: url('../assets/txtacc.jpg');
     background-size: cover;
     text-decoration: none;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section a.txt {
+    background-image: url('../assets/txtacc.jpg');
+    /* Ajout d'un effet de survol */
+    transition: transform 0.3s ease;
 }
 
 section a:hover {
