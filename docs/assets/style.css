@@ -1,6 +1,7 @@
 html {
-    background-color: rgba(34, 32, 32, 0.745);
+    background-color: black;
     color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section .gallery {
@@ -42,6 +43,7 @@ section a:hover {
 nav li {
     display: inline; /* met les éléments sur la même ligne */
     margin-right: 15px; /* espace entre les liens */
+
 }
 
 nav ul {
@@ -61,7 +63,13 @@ nav a.current,nav a:hover{
     transition: 0.3s ease;
     color: pink;
 }
-
+li a {
+    color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
 h4 {
     color: white;
     text-align: center;
@@ -88,6 +96,11 @@ h4 {
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
+}
+
+h3 {
+    text-align: center;
+    margin: 1em 0;
 }
 
 footer {
