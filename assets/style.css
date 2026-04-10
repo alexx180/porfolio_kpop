@@ -31,7 +31,7 @@ section a {
 
 section a.txt {
     background-image: url('../assets/txtacc.jpg');
-    background-size: auto 100%;
+    background-size: cover;
     height: auto;
 }
 
