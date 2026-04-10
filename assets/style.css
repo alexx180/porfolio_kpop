@@ -9,9 +9,8 @@ section .gallery {
 section a {
     /* Ajout d'un effet de survol */
     display: block;
-    width: 100%;
-    height: 60vh; /* hauteur responsive selon écran */
     text-align: center;
+    text-transform: uppercase;
     line-height: 60vh; /* centre verticalement le texte */
     color: white;
     /* augmente la taille*/
@@ -22,7 +21,7 @@ section a {
     text-decoration: none;
     background-position: center;
     background-repeat: no-repeat;
-    display: inline-block;
+    display: block;
     border-radius: 0.25em;
     margin: 0.5em 0;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -32,9 +31,8 @@ section a {
 
 section a.txt {
     background-image: url('../assets/txtacc.jpg');
-    /* Ajout d'un effet de survol */
-    transition: transform 0.3s ease;
-    overflow: hidden;
+    background-size: cover;
+    height: auto;
 }
 
 section a:hover {
