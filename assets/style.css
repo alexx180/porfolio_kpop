@@ -1,4 +1,30 @@
 html {
-    background-color: rgb(227, 219, 193);
+    background-color: black;
 }
 
+section .gallery {
+    border-radius: 0.5em;
+}
+
+nav li {
+    display: inline; /* met les éléments sur la même ligne */
+    margin-right: 15px; /* espace entre les liens */
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+nav a.current,hav a:hover{
+    opacity: 1;
+    transition: 0.3s ease;
+    color: pink;
+}
