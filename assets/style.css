@@ -14,7 +14,6 @@ section a {
     text-align: center;
     line-height: 60vh; /* centre verticalement le texte */
     color: white;
-    margin: auto;
     /* augmente la taille*/
     font-size: 10em;
     /* Ajout d'un effet de flou */
@@ -23,12 +22,19 @@ section a {
     text-decoration: none;
     background-position: center;
     background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 0.25em;
+    margin: 0.5em 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+
 }
 
 section a.txt {
     background-image: url('../assets/txtacc.jpg');
     /* Ajout d'un effet de survol */
     transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
 section a:hover {
@@ -83,7 +89,6 @@ h4 {
     margin: 1em 0;
     text-align: center;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    overflow: hidden;
 
 }
 
