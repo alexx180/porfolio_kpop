@@ -82,7 +82,7 @@ h4 {
 
 }
 .member {
-    width: 40%;
+    width: 25%;
     display: inline-block;
     height: auto;
     border-radius: 0.5em;
@@ -103,10 +103,18 @@ h4 {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 }
-
-h3 {
-    text-align: center;
-    margin: 1em 0;
+.enhypen-group {
+    background: linear-gradient(
+        to bottom,
+        #000000,
+        #570335,
+        #000000,
+        #000000,
+        #570335,
+        #000000
+    );
+    padding: 1em;
+    border-radius: 0.5em;
 }
 
 footer {
