@@ -87,9 +87,8 @@ h4 {
     height: auto;
     border-radius: 0.5em;
     margin: 1em 0;
-    text-align: center;
+    text-align: left;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    overflow: hidden;
 
 }
 
@@ -103,6 +102,31 @@ h4 {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 }
+
+.album-cover {
+    width: 20%;
+    display: inline-block;
+    height: auto;
+    border-radius: 0.5em;
+    margin: 1em auto;
+    text-align: left;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.txt-group {
+    background: linear-gradient(
+        to bottom,
+        #000000,
+        #62abf5,
+        #127798,
+        #127798,
+        #62abf5,
+        #000000
+    );
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
 .enhypen-group {
     background: linear-gradient(
         to bottom,
